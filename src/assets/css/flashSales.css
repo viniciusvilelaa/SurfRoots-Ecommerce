@@ -1,0 +1,21 @@
+
+.flash--container{
+   display: flex;
+   flex-direction: column;
+   gap: 2.5rem;
+
+}
+
+.flash--title{
+    font-size: 1.5rem;
+    color: #FF5400;
+    border-left: 1rem solid #FF5400;
+    padding: 1rem 0 0 1rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+    display: flex;
+}
+
+.flash--subtitle{
+    font-size: 3rem;
+    
+}

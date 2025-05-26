@@ -1,0 +1,35 @@
+/*Header*/
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 4rem 3rem 4rem;
+    font-size: 2rem;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.header__center{
+    display: flex;
+    gap: 2rem;
+}
+
+.header__right{
+    display: flex;
+    gap: 1rem;
+    align-content: center;
+}
+.header__link{
+    color: black;
+    padding-bottom: .5rem;
+    border-bottom: 2px solid transparent;
+
+    &:hover{
+        border-bottom: 2px solid black; /* Exibe a linha no hover */
+    }
+
+    
+    
+}
+
+
