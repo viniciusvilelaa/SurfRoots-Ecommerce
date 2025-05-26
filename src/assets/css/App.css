@@ -1,35 +1,43 @@
 /*Header*/
-.header-container{
+.header-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 3rem 4rem 3rem 4rem;
     font-size: 2rem;
     border-bottom: 1px solid #e4e4e4;
+    font-size: 2.5rem;
+    font-weight: 600;
 }
 
-.header__center{
+.header--center {
     display: flex;
     gap: 2rem;
 }
 
-.header__right{
+.header--right {
     display: flex;
     gap: 1rem;
-    align-content: center;
+    align-items: center;
 }
-.header__link{
+
+.header--link {
     color: black;
     padding-bottom: .5rem;
     border-bottom: 2px solid transparent;
 
-    &:hover{
-        border-bottom: 2px solid black; /* Exibe a linha no hover */
+    &:hover {
+        border-bottom: 2px solid black;
+        /* Exibe a linha no hover */
     }
 
-    
-    
 }
 
-
+.header--input {
+    width: 25rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, .4);
+}
