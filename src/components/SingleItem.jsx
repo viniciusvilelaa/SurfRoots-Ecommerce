@@ -5,7 +5,7 @@ function SingleItem() {
   return (
     <div className="container-singleItem">
         <div className='singleItem--top'>
-            <img src="../public/longjohn.webp" alt="Produto da loja" />
+            <img src="/longjohn.webp" alt="Produto da loja" />
             <div className='over-product'>
                 <p>ver detalhes</p>
                 <p>adicionar no carrinho</p>

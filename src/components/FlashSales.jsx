@@ -32,6 +32,7 @@ function FlashSales() {
                 <SwiperSlide>
                   <SingleItem></SingleItem>
                 </SwiperSlide>
+               
                 
             </Swiper>
        
