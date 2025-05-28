@@ -16,7 +16,14 @@ function FlashSales() {
         <h2 className='flash--subtitle'>Flash Sales</h2>
         <Swiper modules={[Navigation]}
                 navigation
+                spaceBetween={30}
                 slidesPerView={4} loop={true} className='singleItem--carousel' >
+                <SwiperSlide>
+                  <SingleItem></SingleItem>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <SingleItem></SingleItem>
+                </SwiperSlide>
                 <SwiperSlide>
                   <SingleItem></SingleItem>
                 </SwiperSlide>

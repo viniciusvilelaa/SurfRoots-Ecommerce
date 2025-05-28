@@ -3,7 +3,7 @@
     position: relative;
     flex-direction: column;
     gap: 2.3rem;
-    width: 270px;
+    width: 100%;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
     border-radius: 16px;
 
@@ -54,7 +54,7 @@
 }
 
 .singleItem--top {
-    width: 270px;
+    width: 100%;
     height: 250px;
     overflow: hidden;
     
@@ -63,7 +63,7 @@
 .singleItem--top img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     /* ou fill */
     display: block;
 }
