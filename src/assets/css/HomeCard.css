@@ -4,11 +4,12 @@
     gap: 3rem;
     justify-content: center;
     width: 100%;
-    
+    margin-bottom: 5rem;
 }
 
+
 .card img{
-    max-width: 335px;
+    max-width: 100%;
     
 }
 
@@ -28,12 +29,10 @@
    
 }
 
-.card--infos a{
-    text-decoration: none;
-    color: black;
-}
+
 
 .card--infos-buy{
     font-size: 1.4rem;
-    
+    color: black;
+    text-decoration: underline;
 }

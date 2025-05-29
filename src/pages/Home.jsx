@@ -1,10 +1,9 @@
 import React from 'react'
 import '../assets/css/Home.css'
-import Header from '../components/Header'
 import Carousel from '../components/Carousel'
 import FlashSales from '../components/FlashSales'
-import SingleItem from '../components/SingleItem'
 import HomeCard from '../components/HomeCard'
+import HomeCardBigger from '../components/HomeCardBigger'
 function Home() {
     return (
         <div>
@@ -12,6 +11,7 @@ function Home() {
                 <Carousel></Carousel>
                 <FlashSales></FlashSales>
                 <HomeCard></HomeCard>
+                <HomeCardBigger></HomeCardBigger>
             </div>
             
         </div>

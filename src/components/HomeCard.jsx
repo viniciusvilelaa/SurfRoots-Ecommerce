@@ -8,22 +8,22 @@ function HomeCard() {
       <div className="card">
         <img src="./public/cardImg.webp" alt="promoção" />
         <div className="card--infos">
-          <a href="#">EQUIPAMENTOS</a>
-          <a href="#" className='card--infos-buy'>COMPRE AQUI!</a>
+          <p >EQUIPAMENTOS</p>
+          <a href="#" className='card--infos-buy'>COMPRE AQUI</a>
         </div>
       </div>
       <div className="card">
         <img src="./public/cardImg.webp" alt="promoção" />
         <div className="card--infos">
-          <a href="#">EQUIPAMENTOS</a>
-          <a href="#" className='card--infos-buy'>COMPRE AQUI!</a>
+          <p href="#">EQUIPAMENTOS</p>
+          <a href="#" className='card--infos-buy'>COMPRE AQUI</a>
         </div>
       </div>
       <div className="card">
         <img src="./public/cardImg.webp" alt="promoção" />
         <div className="card--infos">
-          <a href="#">EQUIPAMENTOS</a>
-          <a href="#" className='card--infos-buy'>COMPRE AQUI!</a>
+          <p href="#">EQUIPAMENTOS</p>
+          <a href="#" className='card--infos-buy'>COMPRE AQUI</a>
         </div>
       </div>
     </div>
