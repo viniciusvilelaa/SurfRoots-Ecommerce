@@ -1,12 +1,46 @@
-# React + Vite
+# SurfRoots Store 🏄‍♂️🌊
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**SurfRoots** é uma loja virtual voltada para surfistas que resgata a essência do surf raiz. O projeto é dividido em frontend e backend, sendo construído com tecnologias modernas como React, Swiper.js e Spring Boot no backend.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+### 🧠 Backend – Spring Boot
+- Spring Web
+- Spring Data JPA
+- Spring Validation
+- MySQL (dependendo do ambiente)
+- Tratamento global de erros com `@ControllerAdvice`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🌐 Frontend – React + Vite
+- React Router DOM
+- Swiper.js (carrossel customizado)
+- Axios para comunicação com API
+
+---
+
+## 📦 Funcionalidades
+
+- Cadastro e exibição de produtos de surf
+- Carrossel com slides parciais e custom pagination
+- Layout responsivo e estilizado com Tailwind
+- API REST
+- Tratamento de erros e validações centralizados
+
+---
+
+## 📸 Demonstração
+
+### Carousel com Slide Central e Paginação Estilizada
+
+![Carousel Demo](./screenshots/carousel-demo.png)
+
+---
+
+## 🛠 Como rodar localmente
+
+### Backend
+```bash
+cd backend
+./mvnw spring-boot:run
