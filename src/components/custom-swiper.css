@@ -1,0 +1,27 @@
+.custom-pagination {
+  display: flex;
+  height: 6px;
+  background: #eee;
+  position: relative;
+  border-radius: 3px;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.custom-pagination .swiper-pagination-bullet {
+  flex-grow: 1;
+  height: 2rem;
+  background: #cc0000;
+  border-radius: 0;
+  opacity: 1;
+  margin: 0 !important;
+}
+
+.custom-pagination .swiper-pagination-bullet:not(.swiper-pagination-bullet-active) {
+  background: transparent;
+}
+
+.full-carousel{
+    margin-bottom: 50px;
+}

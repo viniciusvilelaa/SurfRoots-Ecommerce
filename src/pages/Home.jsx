@@ -4,6 +4,7 @@ import Carousel from '../components/Carousel'
 import FlashSales from '../components/FlashSales'
 import HomeCard from '../components/HomeCard'
 import HomeCardBigger from '../components/HomeCardBigger'
+import FullCarousel from '../components/FullCarousel'
 function Home() {
     return (
         <div>
@@ -11,7 +12,7 @@ function Home() {
                 <Carousel></Carousel>
                 <FlashSales></FlashSales>
                 <HomeCard></HomeCard>
-                <HomeCardBigger></HomeCardBigger>
+                <FullCarousel></FullCarousel>
             </div>
             
         </div>
