@@ -17,10 +17,10 @@ function FullCarousel() {
         navigation
         pagination={{ el: '.custom-pagination', clickable: true }}
         spaceBetween={50}
-        centeredSlides={true}
+        
         loop={true}
 
-        slidesPerView={1.9}
+        slidesPerView={1}
       >
         <SwiperSlide><HomeCardBigger /></SwiperSlide>
         <SwiperSlide><HomeCardBigger /></SwiperSlide>
