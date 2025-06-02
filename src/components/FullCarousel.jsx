@@ -1,6 +1,6 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination} from 'swiper/modules';
+import { Navigation, Pagination } from 'swiper/modules';
 import HomeCardBigger from './HomeCardBigger';
 
 // Import Swiper styles
@@ -16,11 +16,19 @@ function FullCarousel() {
         modules={[Navigation, Pagination]}
         navigation
         pagination={{ el: '.custom-pagination', clickable: true }}
-        spaceBetween={50}
-        
-        loop={true}
+        spaceBetween={30}
 
-        slidesPerView={1}
+        loop={true}
+        centeredSlides={true}
+        slidesPerView={1.5}
+        breakpoints={{
+          500: {
+            slidesPerView: 1,
+          },
+          1024: {
+            slidesPerView: 1.7,
+          }
+        }}
       >
         <SwiperSlide><HomeCardBigger /></SwiperSlide>
         <SwiperSlide><HomeCardBigger /></SwiperSlide>
