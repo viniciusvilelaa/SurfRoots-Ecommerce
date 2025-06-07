@@ -9,13 +9,13 @@ import 'swiper/css/navigation';
 function Carousel() {
     return (
         <div className='carousel-container'>
-            <Swiper modules={[Navigation, Autoplay]}
-                navigation
+            <Swiper modules={[Autoplay]}
+                
                 autoplay={{
                     delay: 2500,
                     disableOnInteraction: false
                 }}
-                speed={1000}
+                speed={1500}
                 slidesPerView={1} loop={true} className='carousel' >
                 <SwiperSlide><img src="../public/image-slider1.jpg" /></SwiperSlide>
                 <SwiperSlide><img src="../public/image-slider2.jpg" /></SwiperSlide>
