@@ -6,10 +6,8 @@ const Header = () => {
     return (
         <div className="header-container sticky top-0 z-50 bg-white shadow-md">
             <h1 className={"logo"}>SURF ROOTS</h1>
-            <div className="header--center">
-                <p href="#" className="header--link"></p>
-                
-            </div>
+            
+            
             <div className="header--right">
                 <input type="text" className={"header--input"} />
                 <AiOutlineShoppingCart />
