@@ -4,6 +4,7 @@
    flex-direction: column;
    gap: 2.5rem;
     margin-bottom: 10rem;
+    padding: 0 4rem;
 }
 
 .flash--title{

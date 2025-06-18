@@ -4,8 +4,8 @@ import './assets/css/App.css'
 import Header from "./components/Header.jsx";
 import Home from './pages/Home.jsx';
 import HeaderBottom from './components/HeaderBottom.jsx';
-import Footer from './components/Footer.jsx';
-
+import Newsletter from './components/Newsletter.jsx';
+import MediumHero from './components/MediumHero.jsx';
 function App() {
 
   return (
@@ -13,7 +13,8 @@ function App() {
         <Header></Header>
         <HeaderBottom></HeaderBottom>
         <Home></Home>
-        <Footer></Footer>
+        <Newsletter></Newsletter>
+        <MediumHero></MediumHero>
       </>
   )
 }
