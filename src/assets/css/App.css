@@ -20,10 +20,11 @@
     gap: 2rem;
 }
 
-.header--right {
+.header--right-login-cart {
     display: flex;
     gap: 1rem;
     align-items: center;
+    
 }
 
 .header--link {
@@ -134,7 +135,7 @@
 }
 
 /* Newsletter */
-.footer-container{
+.newsletter-container{
 
     font-size: 1.75rem;
     background-color: #FF5400;
@@ -145,7 +146,7 @@
 }
 
 
-.footer-container #email{
+.newsletter-container #email{
     background-color: white;
     padding: .4rem 1rem;
     width: 30%;
@@ -153,7 +154,7 @@
     outline: none;
 }
 
-.footer-container #submit{
+.newsletter-container #submit{
     background-color: black;
     height: 29px;
     padding: 0 2rem;
@@ -188,9 +189,10 @@
 
 .aircards-container{
     display: flex;
+    position: relative;
     justify-content: center;
-    position: absolute;
-    top: 90%;
+    margin-top: -3rem;
+    z-index: 999999;
 }
 .aircard {
     border-radius: 1rem;
@@ -223,5 +225,15 @@
     margin-top: 2rem;
     font-size: 1.5rem;
     font-weight: 200;
+}
+
+.medium-hero .bottom-p{
+    display: flex;
+    
+    padding: 5rem 5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+
 }
 

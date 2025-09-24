@@ -1,0 +1,11 @@
+.shop-category #category-banner{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.shopcategory-products{
+    display: flex;
+    
+}

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { GiSurfBoard } from "react-icons/gi";
 import { IoPricetagOutline } from "react-icons/io5";
 import { FaTshirt } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 function HeaderBottom() {
   const [open, setOpen] = useState(null);
@@ -55,23 +56,15 @@ function HeaderBottom() {
           {open === "Vestuario" && (
             <div className="dropdown">
               <div className="dropdown-column">
-                <h4>Masculino</h4>
-                <p>Camisetas</p>
-                <p>Bermudas</p>
-                <p>Boardshorts</p>
-                <p>Long Jhon</p>
+                <Link to='/mens'><h4>Masculino</h4></Link>
+                
               </div>
               <div className="dropdown-column">
-                <h4>Feminino</h4>
-                <p>Tops</p>
-                <p>Leggings</p>
-                <p>Maios</p>
+                <Link to='womens'><h4>Feminino</h4></Link>
               </div>
               <div className="dropdown-column">
-                <h4>Acessórios</h4>
-                <p>Bonés</p>
-                <p>Luvas</p>
-                <p>Relógio</p>
+                <Link to='kids'><h4>Kids</h4></Link>
+                
               </div>
             </div>
           )}

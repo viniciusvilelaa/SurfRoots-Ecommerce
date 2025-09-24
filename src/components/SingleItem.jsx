@@ -1,11 +1,11 @@
 import React from 'react'
-import '../assets/css/SingleItem.css'
+import '../Assets/css/SingleItem.css'
 
-function SingleItem() {
+const SingleItem = (props) => {
   return (
     <div className="container-singleItem">
         <div className='singleItem--top'>
-            <img src="/longjohn.webp" alt="Produto da loja" />
+            <img src={props.image} alt="Produto da loja" />
             <div className='over-product'>
                 <p>ver detalhes</p>
                 <p>adicionar no carrinho</p>
@@ -13,12 +13,12 @@ function SingleItem() {
         </div>
         <div className='singleItem--infos'>
             <p className="singleItem--infos-name">
-                LONG JOHN E-BOMB 3/2MM ZIP FREE (WILD BERRY, PP)
+                {props.name}
             </p>
-            <p className='singleItem--infos-price'>R$ 2799,99</p>
+            <p className='singleItem--infos-price'>R$ {props.old_price}</p>
             <p className='singleItem--infos-price_down'>
-                em <b>10x</b> de <b>R$ 280,00 sem juros</b> <br />
-                ou <span>R$ 2649,99 à vista com 5% OFF</span>
+                
+                ou <span>R$ {props.new_price} à vista com 5% OFF</span>
             </p>
         </div>
     </div>

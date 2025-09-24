@@ -15,6 +15,12 @@ function MediumHero() {
           </div>
         </div>
       </div>
+      <p className='bottom-p'>A Surf Roots nasceu para resgatar a essência do surf raiz, 
+        trazendo em cada coleção o espírito livre, autêntico e radical das 
+        praias que moldaram essa cultura. Nossa Loja Virtual oferece roupas e 
+        acessórios que vestem o lifestyle do surf dentro e fora da água, com estilo, atitude e 
+        conexão verdadeira com o mar. Seja para cair nas ondas, curtir a praia ou levar essa energia 
+        para o dia a dia, a Surf Roots é a marca que mantém vivo o surf em sua forma mais pura.</p>
     </div>
   )
 }
