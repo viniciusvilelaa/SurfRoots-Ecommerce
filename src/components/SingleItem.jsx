@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Assets/css/SingleItem.css'
+import { Link } from 'react-router-dom'
 
 const SingleItem = (props) => {
   return (
@@ -7,7 +8,7 @@ const SingleItem = (props) => {
         <div className='singleItem--top'>
             <img src={props.image} alt="Produto da loja" />
             <div className='over-product'>
-                <p>ver detalhes</p>
+                <Link to={`/product/${props.id}`}><p>ver detalhes</p></Link>
                 <p>adicionar no carrinho</p>
             </div>
         </div>

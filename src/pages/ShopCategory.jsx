@@ -23,7 +23,13 @@ const ShopCategory = (props) => {
                 if (props.category === item.category) {
                     return <SingleItem key={i} id={item.id} name={item.name} old_price={item.old_price} new_price={item.new_price} image={item.image}></SingleItem>
                 }
+                else{
+                    return null;
+                }
             })}
+        </div>
+        <div className="shopcategory-loadmore">
+            Explore More
         </div>
     </div>
   )
