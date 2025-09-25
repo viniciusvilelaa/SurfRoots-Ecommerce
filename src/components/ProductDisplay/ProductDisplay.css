@@ -1,5 +1,5 @@
 .productdisplay-container{
-    
+    margin-bottom: 5rem;
     display: flex;
     flex-direction: row;
 }
@@ -38,10 +38,7 @@
     font-size: 2rem;
 }
 
-.productdisplay-right span{
-    color: green;
-    font-size: 1.5rem;
-}
+
 
 .productdisplay-right button{
     background-color: #00b321;
@@ -51,7 +48,7 @@
 }
 
 .product-description{
-    
+    font-size: 1.3rem;
     color:#929292;
 }
 
@@ -87,4 +84,16 @@
 
 .productimage-list img{
     width: 130px;
+}
+
+.productdisplay-prices{
+    display: flex;
+    gap: 1rem;
+    font-size: 2rem;
+    color: #00b321;
+}
+
+.productdisplay-prices #old_price{
+    text-decoration: line-through;
+    color: #818181;
 }

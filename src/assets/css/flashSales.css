@@ -5,6 +5,23 @@
    gap: 2.5rem;
     margin-bottom: 10rem;
     padding: 0 4rem;
+    align-items: center;
+}
+
+.flash--subtitle-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flash--container hr{
+    height: 5px;
+    width: 200px;
+    
+    background-color: black;
+    border-radius: 10px;
+
 }
 
 
@@ -21,3 +38,4 @@
     width: 100%;
     padding-bottom: 1.5rem;
 }
+

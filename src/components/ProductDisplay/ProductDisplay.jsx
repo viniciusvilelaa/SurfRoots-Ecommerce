@@ -23,7 +23,11 @@ const ProductDisplay = (props) => {
             </div>
             <div className='productdisplay-right'>
                 <h1>{product.name}</h1>
-                <span>R${product.new_price}</span>
+                <div className='productdisplay-prices'>
+                    <span id='old_price'>R${product.old_price}</span>
+                    <span>R${product.new_price}</span>
+                </div>
+                
                 <div className='productdisplay-rigt-size'>
                     <h1>Select Size</h1>
                     <div className='productdisplay-right-size'>
