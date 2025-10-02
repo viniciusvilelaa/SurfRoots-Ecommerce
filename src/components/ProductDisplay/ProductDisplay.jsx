@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Breadcrum from '../Breadcrums/Breadcrum';
 import './ProductDisplay.css'
+import { ShopContext } from '../../context/ShopContext';
 
 const ProductDisplay = (props) => {
     const { product } = props;
+
+    const {addToCart} = useContext(ShopContext);
+
 
     return (
         <div className='productdisplay-container'>
@@ -37,7 +41,7 @@ const ProductDisplay = (props) => {
                         <div>XL</div>
                     </div>
                 </div>
-                <button>ADICIONAR AO CARRINHO</button>
+                <button onClick={()=>{addToCart(product.id)}}>ADICIONAR AO CARRINHO</button>
                 <p className='product-description'> 
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Fugit quos minima quidem ipsum magni aperiam, animi aut dolore atque cumque,
