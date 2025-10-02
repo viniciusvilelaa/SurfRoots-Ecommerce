@@ -13,7 +13,7 @@ function NewCollections() {
   return (
     <div className='flash--container'>
         <div className='flash--subtitle-container'>
-          <h2 className='flash--subtitle'>NOVIDADES PARA VOCÊ</h2>
+          <h2 className='flash--subtitle'>Novidades Para Você</h2>
           <hr />
         </div>
         
