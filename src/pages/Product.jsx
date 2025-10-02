@@ -2,7 +2,6 @@ import React, { useContext } from 'react'
 import ShopContextProvider, { ShopContext } from '../context/ShopContext'
 import './CSS/Product.css'
 import { useParams } from 'react-router-dom'
-import Breadcrum from '../components/Breadcrums/Breadcrum'
 import ProductDisplay from '../components/ProductDisplay/ProductDisplay'
 import NewCollections from '../components/NewCollections'
 

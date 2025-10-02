@@ -17,10 +17,10 @@
     gap: 4.5rem;
     align-items: center;
     font-size: 1.5rem;
-    
+
 }
 
-.header--right-login-cart button{
+.header--right-login-cart button {
     width: 13rem;
     height: 3rem;
     outline: none;
@@ -33,15 +33,28 @@
     cursor: pointer;
 }
 
-.header--right-login-cart img{
+.header--right-login-cart img {
     width: 3rem;
 }
 
-.header--right-login-cart button:active{
+.header--right-login-cart button:active {
     background-color: #f3f3f3;
 }
 
-.nav-cart-count{
+.categories-center {
+    display: flex;
+    font-weight: 300;
+    font-size: 2rem;
+    gap: 2rem;
+    letter-spacing: 0.12rem;
+    cursor: pointer;
+    & li:hover{
+        text-decoration: underline;
+    }
+}
+
+
+.nav-cart-count {
     width: 2rem;
     height: 2rem;
     display: flex;
@@ -55,4 +68,3 @@
     background-color: red;
     color: white;
 }
-
