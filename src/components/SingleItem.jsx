@@ -12,7 +12,7 @@ const SingleItem = (props) => {
             <div className='singleItem--top'>
                 <img src={props.image} alt="Produto da loja" />
                 <div className='over-product'>
-                    <Link to={`/product/${props.id}`}><p onClick={window.scroll(0, 0)}>ver detalhes</p></Link>
+                    <Link to={`/product/${props.id}`}><p onClick={()=>{window.scroll(0, 0)}}>ver detalhes</p></Link>
                     <p onClick={()=>{addToCart(props.id)}}>adicionar no carrinho</p>
                 </div>
             </div>
