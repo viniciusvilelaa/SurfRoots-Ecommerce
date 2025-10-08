@@ -12,9 +12,9 @@ const Header = () => {
             <Link to='/'><h1 className={"logo"}>SURF ROOTS</h1></Link>
 
             <ul className="categories-center"> 
-               <Link to='/mens'><li>MASCULINO</li></Link> 
-               <Link to='/womens'><li>FEMININO</li></Link> 
-               <Link to='/kids'><li>INFANTIL</li></Link> 
+               <Link to='/mens' onClick={()=>{window.scrollTo(0,0)}}><li>MASCULINO</li></Link> 
+               <Link to='/womens' onClick={()=>{window.scrollTo(0,0)}}><li>FEMININO</li></Link> 
+               <Link to='/kids' onClick={()=>{window.scrollTo(0,0)}}><li>INFANTIL</li></Link> 
             </ul>
             
             <div className="header--right-login-cart">
